@@ -174,6 +174,46 @@ Componente visual personalizado que extiende `JComboBox<categoria>` y permite ca
 
 Este paquete contiene clases para manipulación visual de componentes Swing y envío de correos con archivos adjuntos.
 
+
+### ┣▇ Clase `Sesion`
+
+Clase utilitaria para gestionar la sesión actual del usuario dentro de la aplicación.
+
+Guarda y mantiene la información del usuario loggeado mientras la aplicación está abierta, permitiendo saber quién está autenticado y qué tipo de rol posee (admin o cliente).
+
+#### ▪️ Campos estáticos:
+
+- `private static String tipoUsuario`  
+  Tipo del usuario loggeado (`"admin"` o `"cliente"`).
+
+- `private static String nombreUsuario`  
+  Nombre del usuario actualmente en sesión.
+
+---
+
+#### ▪️ Métodos principales:
+
+- `public static void iniciarSesion(String usuario, String tipo)`  
+  Inicia la sesión del usuario especificado.  
+  - **Parámetros:**  
+    - `usuario`: Nombre de usuario.  
+    - `tipo`: Tipo de usuario (`"admin"` o `"cliente"`).
+
+- `public static String getTipoUsuario()`  
+  Retorna el tipo del usuario actualmente loggeado.
+
+- `public static String getNombreUsuario()`  
+  Retorna el nombre del usuario actualmente loggeado.
+
+- `public static void cerrarSesion()`  
+  Cierra la sesión actual, limpiando el nombre y tipo de usuario.
+
+- `public static boolean sesionActiva()`  
+  Verifica si hay una sesión activa.  
+  - **Retorna:** `true` si hay un usuario loggeado, `false` si no.
+
+---
+
 ---
 
 ### ┣▇ Clase `CambiosVisuales`
