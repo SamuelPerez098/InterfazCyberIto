@@ -1156,7 +1156,7 @@ Componentes:
 Tabla para visualizar los usuarios y barra de navegación básica.
 
 ------
-# Imagenes
+# Imagenes sobre el proyecto
 ## loggin 
 ![Image](https://github.com/user-attachments/assets/983044a2-ad21-4546-9f01-858f6dd68ad4)
 
@@ -1166,7 +1166,7 @@ Tabla para visualizar los usuarios y barra de navegación básica.
 ## opciones al acceder como admin
 ![Image](https://github.com/user-attachments/assets/694115fd-cae5-4647-85c7-84d54060f362)
 
-## Opciones para trabajar con usuarios o con Productos
+## Opciones para trabajar con usuarios 
 ![Image](https://github.com/user-attachments/assets/e453744d-eee7-4630-92a7-5ea239215ae6)
 ### editar usuario
 ![Image](https://github.com/user-attachments/assets/5c6bc545-c490-46e0-a526-a2f279566d0c)
