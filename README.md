@@ -13,7 +13,26 @@ Este proyecto está diseñado para gestionar productos, usuarios y autenticacion
 ## ▣══ Paquete: `Controlador` ══▣
 
 Contiene la lógica de control entre la interfaz de usuario y los modelos. Coordina acciones del sistema como autenticación, manejo de productos y flujo de tickets.
+### ┣▇ 'conUsuarios.java'
+Controlador para operaciones CRUD sobre los usuarios del sistema.
 
+Funciones:
+mostrarUsuarios(DefaultTableModel modelo):
+Llena una tabla con los usuarios registrados en la base de datos.
+
+registrarUsuario(String nombre, String rol):
+Ejecuta una inserción en la base de datos para agregar un nuevo usuario.
+
+editarUsuario(int id, String nuevoNombre, String nuevoRol):
+Actualiza la información del usuario con base en su ID.
+
+eliminarUsuario(int id):
+Borra un usuario del sistema con su identificador.
+
+Conexiones:
+Utiliza la clase CoenBD para conectar con PostgreSQL.
+
+Utiliza objetos Usuario para el transporte de datos.
 ###  ┣▇ `AccionTicket.java`
 
 Clase que representa una acción sobre el ticket (agregar o eliminar productos). Guarda los datos del producto y el tipo de operación.
@@ -1064,3 +1083,40 @@ Confirma y borra todo el contenido del ticket.
 Confirma cierre de sesión y vuelve a la pantalla de login.  
 
 ---
+
+┣▇ EU.java
+Ventana para editar información de usuarios existentes.
+
+Funcionalidades:
+Muestra los datos del usuario seleccionado.
+
+Permite modificar campos como nombre de usuario y tipo de rol.
+
+Utiliza un JComboBox con roles cargados por JRolComboBox.
+
+Componentes:
+Campos de texto, botón para guardar cambios y validaciones básicas.
+
+┣▇ RU.java
+Ventana para registrar nuevos usuarios en el sistema.
+
+Funcionalidades:
+Formulario para ingresar nombre de usuario y rol.
+
+Guarda la información en la base de datos utilizando controladores del sistema.
+
+Componentes:
+Campos de entrada, botón de registro, combo de roles cargado desde la base de datos.
+
+┣▇ OpcionUsuarios.java
+Ventana principal de gestión de usuarios.
+
+Funcionalidades:
+Lista todos los usuarios registrados.
+
+Ofrece botones para agregar, editar y eliminar usuarios.
+
+Integra otras ventanas como RU (Registro) y EU (Edición).
+
+Componentes:
+Tabla para visualizar los usuarios y barra de navegación básica.
