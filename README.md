@@ -1160,6 +1160,29 @@ Tabla para visualizar los usuarios y barra de navegación básica.
 ## loggin 
 ![Image](https://github.com/user-attachments/assets/983044a2-ad21-4546-9f01-858f6dd68ad4)
 
+## Productos al acceder como usuario
+![Image](https://github.com/user-attachments/assets/5a15d804-8e93-48b9-a55d-a75d45e23a41)
+
+## opciones al acceder como admin
+![Image](https://github.com/user-attachments/assets/694115fd-cae5-4647-85c7-84d54060f362)
+
+## Opciones para trabajar con usuarios o con Productos
+![Image](https://github.com/user-attachments/assets/e453744d-eee7-4630-92a7-5ea239215ae6)
+### editar usuario
+![Image](https://github.com/user-attachments/assets/5c6bc545-c490-46e0-a526-a2f279566d0c)
+### agregar usuario 
+![Image](https://github.com/user-attachments/assets/99c8191d-37a2-42e5-af5d-03d03d5dabbb)
+
+## Productos para admin (no cambia mucho)
+![Image](https://github.com/user-attachments/assets/1c491207-0e7c-446d-88f3-249b8fc9885d)
+
+### ventana para editar productos
+![Image](https://github.com/user-attachments/assets/b2ca5c9d-0869-442e-b55f-2dc1dd762c43)
+### ventana para agregar productos
+![Image](https://github.com/user-attachments/assets/01602e10-a558-4331-bfd0-a78881438836)
+
+
+
 
 ------
 # Video de youtube explicativo
