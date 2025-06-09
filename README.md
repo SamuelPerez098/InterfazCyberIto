@@ -79,6 +79,30 @@ Clase encargada de interactuar con la base de datos para operaciones CRUD sobre 
 El paquete `Modelo` contiene las clases que representan las entidades principales del sistema. Estas clases encapsulan los datos relacionados con usuarios, productos y categorías, y se utilizan para trasladar información entre la base de datos y la interfaz.
 
 ---
+## ┣▇ Rol.java
+Modelo que representa un rol de usuario dentro del sistema (por ejemplo: administrador, cliente, etc.).
+
+### Atributos:
+int id: Identificador único del rol.
+
+String nombre: Nombre descriptivo del rol.
+
+### Constructores:
+Rol(): Constructor vacío, útil para frameworks o creación manual.
+
+Rol(int id, String nombre): Constructor completo con identificador.
+
+Rol(String nombre): Constructor sin ID, común para inserciones nuevas.
+
+### Métodos:
+Getters y Setters para id y nombre.
+
+toString() sobreescrito para retornar el nombre del rol, facilitando su visualización en componentes como JComboBox.
+
+### Uso:
+Se utiliza principalmente para representar y manejar los permisos o tipos de usuarios en el sistema, siendo una estructura de datos clave para la gestión de accesos.
+
+
 
 ### ┣▇ `Usuario.java`
 
