@@ -1130,3 +1130,7 @@ Integra otras ventanas como RU (Registro) y EU (Edición).
 
 Componentes:
 Tabla para visualizar los usuarios y barra de navegación básica.
+
+------
+# Video de youtube explicativo
+https://youtu.be/rBGDjPXXXeE
