@@ -187,6 +187,16 @@ Componente visual personalizado que extiende `JComboBox<categoria>` y permite ca
 
  **Uso típico**: Este componente facilita que la interfaz gráfica siempre tenga las categorías actualizadas, evitando errores y duplicación de lógica.
 
+### ┣▇ JRolComboBox.java
+Componente que carga dinámicamente los roles de usuario desde PostgreSQL en un JComboBox.
+
+Función principal:
+Consulta los roles creados en la base de datos PostgreSQL (usando la vista pg_roles) y los muestra en el combo.
+
+Métodos:
+Constructor JRolComboBox()
+Ejecuta una consulta sobre pg_roles para extraer roles válidos y los agrega al JComboBox.
+
 ---
 
 ## ▣══ Paquete: `Utilidades`══▣
